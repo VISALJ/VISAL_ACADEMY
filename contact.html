@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Visal Academy for enrollment, membership, and training inquiries." />
+  <meta name="keywords" content="Visal Academy contact, basketball academy contact, training inquiry, enrollment" />
+  <title>Visal Academy | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/forms.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/buttons.css" />
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main>
+    <section class="hero contact-hero">
+      <div class="container hero-content">
+        <span class="eyebrow">Contact Us</span>
+        <h1>Reach Out to Visal Academy</h1>
+        <p>Have questions about enrollment, training schedules, or our elite basketball programs? Send us a message and we’ll respond within one business day.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-grid">
+        <form class="contact-form">
+          <input type="hidden" name="api_key" value="re_NtYNaDXP_Dyrfvi5WqCXE5h6hopPyKSdy" />
+          <input type="hidden" name="notify_email" value="visalceo001@gmail.com" />
+          <div class="form-row">
+            <label for="name">Athlete Name</label>
+            <input id="name" type="text" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-row">
+            <label for="guardian">Parent / Guardian</label>
+            <input id="guardian" type="text" name="guardian" placeholder="Jane Doe" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="tel" name="phone" placeholder="+91 78069 08543" />
+          </div>
+          <div class="form-row">
+            <label for="program">Preferred Program</label>
+            <select id="program" name="program" required>
+              <option value="">Select a program</option>
+              <option value="foundations">Foundations</option>
+              <option value="elite">Elite Rise</option>
+              <option value="pro">Pro Spec</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">Goals / Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us your goals" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+        </form>
+
+        <div class="contact-image-only">
+          <img class="contact-side-image" src="Images/contact page.jpg" alt="Coach and athlete reviewing a training plan" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <a href="https://wa.me/917806908543" class="floating-whatsapp" target="_blank" rel="noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/forms.js"></script>
+</body>
+</html>
